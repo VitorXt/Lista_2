@@ -1,6 +1,9 @@
 # A) A partir dos dados é possível concluir que o perceptron de camada simples funciona? Justifique sua resposta.
 ## Resposta: 
-### A resposta a essa pergunta depende do tipo de dados que foi recebido. Se os dados são linearmente separáveis, então o perceptron de camada simples funcionará e será capaz de encontrar uma linha de decisão que separe os dados corretamente. Caso contrário, se os dados não forem linearmente separáveis, o perceptron simples não conseguirá encontrar uma solução correta e permanecerá com um erro. A justificativa deve incluir a análise dos dados fornecidos.
+### O perceptron de camada simples funciona bem apenas se os dados forem linearmente separáveis. Isso significa que, se for possível traçar uma linha reta que separe as duas classes (por exemplo, laranjas e maçãs), o perceptron conseguirá aprender a fazer essa distinção corretamente após o treinamento.
+Se os dados forem linearmente separáveis: O perceptron simples conseguirá aprender a separar as classes corretamente, ajustando os pesos durante o treinamento.
+Se os dados não forem linearmente separáveis: O perceptron simples não conseguirá classificar os dados corretamente, porque ele não consegue lidar com padrões complexos que exigem uma separação não linear.
+Em resumo, se os dados podem ser separados por uma linha reta, o perceptron funciona. Se não podem, ele falhará.
 # B) Usando a planilha que fizemos na aula ao vivo, faça os cálculos passando por cada etapa das 6 de treinamento.
 ## Resposta: 
 ### Feito via Excel
